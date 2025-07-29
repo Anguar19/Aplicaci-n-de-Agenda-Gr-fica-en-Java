@@ -30,6 +30,7 @@ public class DatabaseConnection {
         return DriverManager.getConnection(URL);
     }
 
+    
     public static void main(String[] args) {
         try (Connection conn = getConnection()) {
             if (conn != null) {

@@ -14,6 +14,7 @@ public class AgendaUi extends javax.swing.JFrame {
     private int filaSeleccionada = -1;
     
     /**
+     * 
      * Creates new form AgendaUi
      */
     public AgendaUi() {

@@ -26,6 +26,7 @@ public class Event {
      * @param ubicacion Lugar donde se realizará el evento.
      * @param contactoId Identificador del contacto relacionado.
      * 
+     * 
      */
     public Event(int id, String descripcion, LocalDateTime fechaHora, String ubicacion, int contactoId) {
         this.id = id;
