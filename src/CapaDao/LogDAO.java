@@ -15,6 +15,7 @@ public class LogDAO {
      * Registra un error en la tabla "error_logs".
      * @param methodName Nombre del método donde ocurrió el error.
      * @param errorMessage Mensaje descriptivo del error.
+     * 
      */
     public static void logError(String methodName, String errorMessage) {
         // Sentencia SQL para insertar el registro del error

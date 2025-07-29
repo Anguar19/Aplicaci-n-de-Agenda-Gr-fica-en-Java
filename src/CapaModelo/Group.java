@@ -22,6 +22,7 @@ public class Group {
      * @param nombre Nombre del grupo.
      * @param descripcion Descripción del grupo.
      * @param color Color asociado al grupo.
+     * 
      */
     public Group(int id, String nombre, String descripcion, String color) {
         this.id = id;

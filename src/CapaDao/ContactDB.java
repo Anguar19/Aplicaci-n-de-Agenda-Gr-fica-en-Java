@@ -17,6 +17,7 @@ public class ContactDB {
      * Crea un nuevo contacto en la base de datos.
      * 
      * @param contact El objeto Contact con los datos a insertar.
+     * 
      * @return true si el contacto fue creado exitosamente, false en caso de error.
      */
     public boolean create(Contact contact) {

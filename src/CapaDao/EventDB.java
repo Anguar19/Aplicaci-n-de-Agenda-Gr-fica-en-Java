@@ -18,6 +18,7 @@ public class EventDB {
      * Crea un nuevo evento en la base de datos.
      * @param event Objeto Event con la información a insertar.
      * @return true si la inserción fue exitosa, false en caso contrario.
+     * 
      */
     public boolean create(Event event) {
         String sql = "INSERT INTO events (descripcion, fecha_hora, ubicacion, contacto_id) VALUES (?, ?, ?, ?)";

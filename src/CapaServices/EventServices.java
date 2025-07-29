@@ -22,7 +22,8 @@ public class EventServices {
     /**
      * Validar y crear un nuevo evento
      * @param event evento a crear
-     * @return boolean resultado de la operaciónes
+     * @return boolean resultado de la operaciónes 
+     * 
      */
     public boolean createEvent(Event event) {
         // Validaciones de negocio

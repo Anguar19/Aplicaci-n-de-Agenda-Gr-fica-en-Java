@@ -12,6 +12,7 @@ import javax.swing.JOptionPane;
 public class AgendaUi extends javax.swing.JFrame {
     DefaultTableModel modelo = new DefaultTableModel(); 
     private int filaSeleccionada = -1;
+    
     /**
      * Creates new form AgendaUi
      */

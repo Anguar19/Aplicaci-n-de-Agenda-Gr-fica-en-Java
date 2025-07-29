@@ -30,6 +30,7 @@ public class Contact {
      * @param direccion Dirección física.
      * @param etiquetas Etiquetas o categorías.
      * @param grupoId Identificador del grupo asociado.
+     * 
      */
     public Contact(int id, String nombres, String apellidos, String telefonos, String emails, String direccion, String etiquetas, int grupoId) {
         this.id = id;

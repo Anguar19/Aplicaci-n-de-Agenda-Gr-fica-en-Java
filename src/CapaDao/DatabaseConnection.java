@@ -16,6 +16,7 @@ public class DatabaseConnection {
             + "integratedSecurity=true;"
             + "encrypt=true;"
             + "trustServerCertificate=true;";
+    
 
     public static Connection getConnection() throws SQLException {
         try {

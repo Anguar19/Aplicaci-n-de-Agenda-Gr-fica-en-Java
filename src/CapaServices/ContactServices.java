@@ -74,6 +74,7 @@ public class ContactServices {
      * Buscar contactos por término
      * @param searchTerm término de búsqueda
      * @return lista de contactos encontrados
+     * 
      */
     public List<Contact> searchContacts(String searchTerm) {
         if (searchTerm == null || searchTerm.trim().isEmpty()) {
